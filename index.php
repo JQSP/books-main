@@ -42,7 +42,7 @@
         </h2>
     </header>
     <main>
-        <form action="" class="form-inline">
+        <form action="ws/salvarLivro.php" class="form-inline">
             <div class="form-group">
                 <input type="text" name="txt_livro"
                     class="form-control" id="txt_livro">
