@@ -7,3 +7,5 @@ $sql = "INSERT INTO public.book
         VALUES('$nomeLivro', 100, 'Desconhecido');";
 
 Conexao::exec($sql);
+
+header("Location: ../index.php");
